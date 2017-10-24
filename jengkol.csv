@@ -1,5 +1,5 @@
-title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,product,price,sku,kondisi
-Jual Dompet Wanita - RA 037 Murah,dompet-wanita-ra-037,"
+title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargajual,profit,sku,kondisi
+Jual Dompet / Clutch Casual Wanita - TB 008 Murah,dompet-clutch-casual-wanita-tb-008,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -24,6 +24,7 @@ Jual Dompet Wanita - RA 037 Murah,dompet-wanita-ra-037,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -46,8 +47,17 @@ Jual Dompet Wanita - RA 037 Murah,dompet-wanita-ra-037,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Dompet Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita - RA 037 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : RA 037<br/>Warna : BIRU<br/>Bahan : SYNTHETIC<br/>Ukuran : 20X11X3<br/>Berat : 0.4 kg<br>
+         <p>Dompet / Clutch Casual Wanita - TB 008 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan PRADA.<br/>Kode : TB 008<br/>Warna : CREAM<br/>Bahan : PRADA<br/>Ukuran : AS<br/>Berat : 0.4 kg<br/>Info Lainnya = 19 X 10 X 3<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -61,8 +71,8 @@ Jual Dompet Wanita - RA 037 Murah,dompet-wanita-ra-037,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SYNTHETIC, Ukuran 20X11X3, Warna BIRU",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/450-ra-037.jpg,Dompet Wanita - RA 037,Rp 97.900,RA 037,Baru
-Jual Dompet Wanita - RW 003 Murah,dompet-wanita-rw-003,"
+     </div><!--/category-tab-->",2017-10-16,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan PRADA, Ukuran AS, Warna CREAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/389-tb-008.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tb-008-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tb-008-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tb-008-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tb-008-d.jpg,/,Dompet / Clutch Casual Wanita - TB 008,Rp 58.900,Rp 68.900,Rp 10.000,TB 008,Baru
+Jual Dompet / Clutch Casual Wanita - RW 007 Murah,dompet-clutch-casual-wanita-rw-007,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -87,6 +97,7 @@ Jual Dompet Wanita - RW 003 Murah,dompet-wanita-rw-003,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -109,8 +120,17 @@ Jual Dompet Wanita - RW 003 Murah,dompet-wanita-rw-003,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Dompet Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita - RW 003 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : RW 003<br/>Warna : COKLAT<br/>Bahan : SYNTHETIC<br/>Ukuran : 25X15X6<br/>Berat : 0.4 kg<br>
+         <p>Dompet / Clutch Casual Wanita - RW 007 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan FERARY.<br/>Kode : RW 007<br/>Warna : UNGU<br/>Bahan : FERARY<br/>Ukuran : AS<br/>Berat : 0.4 kg<br/>Info Lainnya = 25 X 14 X 5<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -124,8 +144,8 @@ Jual Dompet Wanita - RW 003 Murah,dompet-wanita-rw-003,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SYNTHETIC, Ukuran 25X15X6, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/451-rw-003.jpg,Dompet Wanita - RW 003,Rp 76.900,RW 003,Baru
-Jual Dompet Wanita - RA 041 Murah,dompet-wanita-ra-041,"
+     </div><!--/category-tab-->",2017-10-16,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan FERARY, Ukuran AS, Warna UNGU",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/390-rw-007.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rw-007-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rw-007-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rw-007-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rw-007-d.jpg,/,Dompet / Clutch Casual Wanita - RW 007,Rp 79.900,Rp 93.900,Rp 14.000,RW 007,Baru
+Jual Dompet / Clutch Casual Wanita - RA 018 Murah,dompet-clutch-casual-wanita-ra-018,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -150,6 +170,7 @@ Jual Dompet Wanita - RA 041 Murah,dompet-wanita-ra-041,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -172,8 +193,17 @@ Jual Dompet Wanita - RA 041 Murah,dompet-wanita-ra-041,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Dompet Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita - RA 041 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : RA 041<br/>Warna : HITAM<br/>Bahan : SYNTHETIC<br/>Ukuran : 20X10X3<br/>Berat : 0.4 kg<br>
+         <p>Dompet / Clutch Casual Wanita - RA 018 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RA 018<br/>Warna : MERAH<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.4 kg<br/>Info Lainnya = 20 X 11 X 3<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -187,8 +217,8 @@ Jual Dompet Wanita - RA 041 Murah,dompet-wanita-ra-041,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SYNTHETIC, Ukuran 20X10X3, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/452-ra-041.jpg,Dompet Wanita - RA 041,Rp 78.400,RA 041,Baru
-Jual Dompet Wanita - RW 002 Murah,dompet-wanita-rw-002,"
+     </div><!--/category-tab-->",2017-10-16,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna MERAH",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/391-ra-018.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ra-018-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ra-018-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ra-018-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ra-018-d.jpg,/,Dompet / Clutch Casual Wanita - RA 018,Rp 78.900,Rp 92.900,Rp 14.000,RA 018,Baru
+Jual Dompet / Clutch Casual Wanita - TB 004 Murah,dompet-clutch-casual-wanita-tb-004,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -213,6 +243,7 @@ Jual Dompet Wanita - RW 002 Murah,dompet-wanita-rw-002,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -235,8 +266,17 @@ Jual Dompet Wanita - RW 002 Murah,dompet-wanita-rw-002,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Dompet Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita - RW 002 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : RW 002<br/>Warna : ABU ABU<br/>Bahan : SYNTHETIC<br/>Ukuran : 25X15X5<br/>Berat : 0.4 kg<br>
+         <p>Dompet / Clutch Casual Wanita - TB 004 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan PRADA.<br/>Kode : TB 004<br/>Warna : COKLAT<br/>Bahan : PRADA<br/>Ukuran : AS<br/>Berat : 0.4 kg<br/>Info Lainnya = 23 X 13 X 3<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -250,8 +290,8 @@ Jual Dompet Wanita - RW 002 Murah,dompet-wanita-rw-002,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SYNTHETIC, Ukuran 25X15X5, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/453-rw-002.jpg,Dompet Wanita - RW 002,Rp 76.900,RW 002,Baru
-Jual Dompet Wanita - SK 029 Murah,dompet-wanita-sk-029,"
+     </div><!--/category-tab-->",2017-10-16,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan PRADA, Ukuran AS, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/392-tb-004.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tb-004-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tb-004-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tb-004-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tb-004-d.jpg,/,Dompet / Clutch Casual Wanita - TB 004,Rp 76.400,Rp 89.900,Rp 13.500,TB 004,Baru
+Jual Dompet / Clutch Casual Wanita - RW 004 Murah,dompet-clutch-casual-wanita-rw-004,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -276,6 +316,7 @@ Jual Dompet Wanita - SK 029 Murah,dompet-wanita-sk-029,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -298,8 +339,17 @@ Jual Dompet Wanita - SK 029 Murah,dompet-wanita-sk-029,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Dompet Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita - SK 029 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : SK 029<br/>Warna : CREAM<br/>Bahan : SYNTHETIC<br/>Ukuran : 18X9X2<br/>Berat : 0.4 kg<br>
+         <p>Dompet / Clutch Casual Wanita - RW 004 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RW 004<br/>Warna : CREAM KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.4 kg<br/>Info Lainnya = 25 X 14 X 5<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -313,8 +363,8 @@ Jual Dompet Wanita - SK 029 Murah,dompet-wanita-sk-029,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SYNTHETIC, Ukuran 18X9X2, Warna CREAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/454-sk-029.jpg,Dompet Wanita - SK 029,Rp 75.400,SK 029,Baru
-Jual Dompet Wanita - RA 036 Murah,dompet-wanita-ra-036,"
+     </div><!--/category-tab-->",2017-10-16,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna CREAM KOMBINASI",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/393-rw-004.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rw-004-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rw-004-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rw-004-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rw-004-d.jpg,/,Dompet / Clutch Casual Wanita - RW 004,Rp 79.900,Rp 93.900,Rp 14.000,RW 004,Baru
+Jual Dompet / Clutch Casual Wanita - RW 002 Murah,dompet-clutch-casual-wanita-rw-002,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -339,6 +389,7 @@ Jual Dompet Wanita - RA 036 Murah,dompet-wanita-ra-036,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -361,8 +412,17 @@ Jual Dompet Wanita - RA 036 Murah,dompet-wanita-ra-036,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Dompet Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita - RA 036 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : RA 036<br/>Warna : UNGU<br/>Bahan : SYNTHETIC<br/>Ukuran : 20X14X4<br/>Berat : 0.4 kg<br>
+         <p>Dompet / Clutch Casual Wanita - RW 002 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RW 002<br/>Warna : ABU ABU<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.4 kg<br/>Info Lainnya = 25 X 15 X 5<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -376,8 +436,8 @@ Jual Dompet Wanita - RA 036 Murah,dompet-wanita-ra-036,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SYNTHETIC, Ukuran 20X14X4, Warna UNGU",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/455-ra-036.jpg,Dompet Wanita - RA 036,Rp 102.400,RA 036,Baru
-Jual Dompet Wanita - RA 018 Murah,dompet-wanita-ra-018,"
+     </div><!--/category-tab-->",2017-10-16,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/394-rw-002.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rw-002-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rw-002-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rw-002-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/rw-002-d.jpg,/,Dompet / Clutch Casual Wanita - RW 002,Rp 76.900,Rp 89.900,Rp 13.000,RW 002,Baru
+Jual Clutch / Hand Bag / Dompet Wanita - RTB 007 Murah,clutch-hand-bag-dompet-wanita-rtb-007,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -402,6 +462,7 @@ Jual Dompet Wanita - RA 018 Murah,dompet-wanita-ra-018,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -424,8 +485,17 @@ Jual Dompet Wanita - RA 018 Murah,dompet-wanita-ra-018,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Dompet Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita - RA 018 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : RA 018<br/>Warna : MERAH<br/>Bahan : SYNTHETIC<br/>Ukuran : 20X11X3<br/>Berat : 0.4 kg<br>
+         <p>Clutch / Hand Bag / Dompet Wanita - RTB 007 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RTB 007<br/>Warna : TAN<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.4 kg<br/>Info Lainnya = 23 X 3 X 13<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -439,8 +509,8 @@ Jual Dompet Wanita - RA 018 Murah,dompet-wanita-ra-018,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SYNTHETIC, Ukuran 20X11X3, Warna MERAH",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/456-ra-018.jpg,Dompet Wanita - RA 018,Rp 78.900,RA 018,Baru
-Jual Dompet Wanita - RA 034 Murah,dompet-wanita-ra-034,"
+     </div><!--/category-tab-->",2017-10-17,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna TAN",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/405-rtb-007.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rtb-007-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rtb-007-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rtb-007-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rtb-007-d.jpg,/,Clutch / Hand Bag / Dompet Wanita - RTB 007,Rp 70.400,Rp 82.900,Rp 12.500,RTB 007,Baru
+Jual Clutch / Hand Bag / Dompet Wanita - RNA 083 Murah,clutch-hand-bag-dompet-wanita-rna-083,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -465,6 +535,7 @@ Jual Dompet Wanita - RA 034 Murah,dompet-wanita-ra-034,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -487,8 +558,17 @@ Jual Dompet Wanita - RA 034 Murah,dompet-wanita-ra-034,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Dompet Wanita merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita - RA 034 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : RA 034<br/>Warna : MERAH<br/>Bahan : SYNTHETIC<br/>Ukuran : 23X15X4<br/>Berat : 0.4 kg<br>
+         <p>Clutch / Hand Bag / Dompet Wanita - RNA 083 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RNA 083<br/>Warna : COKLAT<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.4 kg<br/>Info Lainnya = 22 X 5 X 12<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -502,8 +582,8 @@ Jual Dompet Wanita - RA 034 Murah,dompet-wanita-ra-034,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SYNTHETIC, Ukuran 23X15X4, Warna MERAH",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/457-ra-034.jpg,Dompet Wanita - RA 034,Rp 100.900,RA 034,Baru
-Jual Dompet / Hand Bag Wanita - RNA 083 Murah,dompet-hand-bag-wanita-rna-083,"
+     </div><!--/category-tab-->",2017-10-17,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna COKLAT",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/406-rna-083.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rna-083-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rna-083-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rna-083-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rna-083-d.jpg,/,Clutch / Hand Bag / Dompet Wanita - RNA 083,Rp 74.900,Rp 87.900,Rp 13.000,RNA 083,Baru
+Jual Clutch / Hand Bag / Dompet Wanita - RTB 008 Murah,clutch-hand-bag-dompet-wanita-rtb-008,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -528,6 +608,7 @@ Jual Dompet / Hand Bag Wanita - RNA 083 Murah,dompet-hand-bag-wanita-rna-083,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -550,8 +631,17 @@ Jual Dompet / Hand Bag Wanita - RNA 083 Murah,dompet-hand-bag-wanita-rna-083,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Dompet Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet / Hand Bag Wanita - RNA 083 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RNA 083<br/>Warna : COKLAT<br/>Bahan : SINTETIS<br/>Ukuran : 22X5X12CM<br/>Berat : 0.4 kg<br>
+         <p>Clutch / Hand Bag / Dompet Wanita - RTB 008 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RTB 008<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.4 kg<br/>Info Lainnya = 23 X 3 X 13<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -565,8 +655,8 @@ Jual Dompet / Hand Bag Wanita - RNA 083 Murah,dompet-hand-bag-wanita-rna-083,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran 22X5X12CM, Warna COKLAT",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/487-rna-083.jpg,Dompet / Hand Bag Wanita - RNA 083,Rp 74.900,RNA 083,Baru
-Jual Dompet / Hand Bag Wanita - RNA 085 Murah,dompet-hand-bag-wanita-rna-085,"
+     </div><!--/category-tab-->",2017-10-17,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/407-rtb-008.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rtb-008-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rtb-008-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rtb-008-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rtb-008-d.jpg,/,Clutch / Hand Bag / Dompet Wanita - RTB 008,Rp 70.400,Rp 82.900,Rp 12.500,RTB 008,Baru
+Jual Clutch / Hand Bag / Dompet Wanita - RRW 001 Murah,clutch-hand-bag-dompet-wanita-rrw-001,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -591,6 +681,7 @@ Jual Dompet / Hand Bag Wanita - RNA 085 Murah,dompet-hand-bag-wanita-rna-085,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -613,8 +704,17 @@ Jual Dompet / Hand Bag Wanita - RNA 085 Murah,dompet-hand-bag-wanita-rna-085,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Dompet Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet / Hand Bag Wanita - RNA 085 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RNA 085<br/>Warna : COKLAT KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 20X7X15CM<br/>Berat : 0.4 kg<br>
+         <p>Clutch / Hand Bag / Dompet Wanita - RRW 001 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RRW 001<br/>Warna : PINK<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.4 kg<br/>Info Lainnya = 25 X 7 X 13<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -628,8 +728,8 @@ Jual Dompet / Hand Bag Wanita - RNA 085 Murah,dompet-hand-bag-wanita-rna-085,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran 20X7X15CM, Warna COKLAT KOMBINASI",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/488-rna-085.jpg,Dompet / Hand Bag Wanita - RNA 085,Rp 80.400,RNA 085,Baru
-Jual Dompet / Hand Bag Wanita - RNA 088 Murah,dompet-hand-bag-wanita-rna-088,"
+     </div><!--/category-tab-->",2017-10-17,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna PINK",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/408-rrw-001.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrw-001-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrw-001-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrw-001-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrw-001-d.jpg,/,Clutch / Hand Bag / Dompet Wanita - RRW 001,Rp 67.400,Rp 78.900,Rp 11.500,RRW 001,Baru
+Jual Clutch / Hand Bag / Dompet Wanita - RNA 055 Murah,clutch-hand-bag-dompet-wanita-rna-055,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -654,6 +754,7 @@ Jual Dompet / Hand Bag Wanita - RNA 088 Murah,dompet-hand-bag-wanita-rna-088,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -676,8 +777,17 @@ Jual Dompet / Hand Bag Wanita - RNA 088 Murah,dompet-hand-bag-wanita-rna-088,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Dompet Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet / Hand Bag Wanita - RNA 088 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RNA 088<br/>Warna : CREAM<br/>Bahan : SINTETIS<br/>Ukuran : 21X3X11CM<br/>Berat : 0.4 kg<br>
+         <p>Clutch / Hand Bag / Dompet Wanita - RNA 055 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RNA 055<br/>Warna : ABU ABU<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.4 kg<br/>Info Lainnya = 23 X 4 X 13<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -691,8 +801,8 @@ Jual Dompet / Hand Bag Wanita - RNA 088 Murah,dompet-hand-bag-wanita-rna-088,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran 21X3X11CM, Warna CREAM",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/489-rna-088.jpg,Dompet / Hand Bag Wanita - RNA 088,Rp 74.900,RNA 088,Baru
-Jual Dompet / Hand Bag Wanita - RNA 055 Murah,dompet-hand-bag-wanita-rna-055,"
+     </div><!--/category-tab-->",2017-10-17,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna ABU ABU",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/409-rna-055.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rna-055-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rna-055-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rna-055-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rna-055-d.jpg,/,Clutch / Hand Bag / Dompet Wanita - RNA 055,Rp 76.400,Rp 89.900,Rp 13.500,RNA 055,Baru
+Jual Clutch / Hand Bag / Dompet Wanita - RRW 005 Murah,clutch-hand-bag-dompet-wanita-rrw-005,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -717,6 +827,7 @@ Jual Dompet / Hand Bag Wanita - RNA 055 Murah,dompet-hand-bag-wanita-rna-055,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -739,8 +850,17 @@ Jual Dompet / Hand Bag Wanita - RNA 055 Murah,dompet-hand-bag-wanita-rna-055,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Dompet Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet / Hand Bag Wanita - RNA 055 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RNA 055<br/>Warna : ABU ABU<br/>Bahan : SINTETIS<br/>Ukuran : 23X4X13CM<br/>Berat : 0.4 kg<br>
+         <p>Clutch / Hand Bag / Dompet Wanita - RRW 005 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RRW 005<br/>Warna : BIRU KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.4 kg<br/>Info Lainnya = 25 X 7 X 13<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -754,8 +874,8 @@ Jual Dompet / Hand Bag Wanita - RNA 055 Murah,dompet-hand-bag-wanita-rna-055,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran 23X4X13CM, Warna ABU ABU",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/490-rna-055.jpg,Dompet / Hand Bag Wanita - RNA 055,Rp 76.400,RNA 055,Baru
-Jual Dompet / Hand Bag Wanita - RNA 094 Murah,dompet-hand-bag-wanita-rna-094,"
+     </div><!--/category-tab-->",2017-10-17,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna BIRU KOMBINASI",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/410-rrw-005.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrw-005-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrw-005-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrw-005-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrw-005-d.jpg,/,Clutch / Hand Bag / Dompet Wanita - RRW 005,Rp 67.400,Rp 78.900,Rp 11.500,RRW 005,Baru
+Jual Clutch / Hand Bag / Dompet Wanita - RRW 011 Murah,clutch-hand-bag-dompet-wanita-rrw-011,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -780,6 +900,7 @@ Jual Dompet / Hand Bag Wanita - RNA 094 Murah,dompet-hand-bag-wanita-rna-094,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -802,8 +923,17 @@ Jual Dompet / Hand Bag Wanita - RNA 094 Murah,dompet-hand-bag-wanita-rna-094,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Dompet Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet / Hand Bag Wanita - RNA 094 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RNA 094<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : 20X5X15CM<br/>Berat : 0.4 kg<br>
+         <p>Clutch / Hand Bag / Dompet Wanita - RRW 011 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RRW 011<br/>Warna : PINK KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.4 kg<br/>Info Lainnya = 28 X 5 X 14<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -817,8 +947,8 @@ Jual Dompet / Hand Bag Wanita - RNA 094 Murah,dompet-hand-bag-wanita-rna-094,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran 20X5X15CM, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/491-rna-094.jpg,Dompet / Hand Bag Wanita - RNA 094,Rp 80.400,RNA 094,Baru
-Jual Dompet / Hand Bag Wanita - RSL 009 Murah,dompet-hand-bag-wanita-rsl-009,"
+     </div><!--/category-tab-->",2017-10-17,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna PINK KOMBINASI",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/411-rrw-011.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrw-011-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrw-011-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrw-011-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrw-011-d.jpg,/,Clutch / Hand Bag / Dompet Wanita - RRW 011,Rp 73.400,Rp 85.900,Rp 12.500,RRW 011,Baru
+Jual Clutch / Hand Bag / Dompet Wanita - RRW 006 Murah,clutch-hand-bag-dompet-wanita-rrw-006,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -843,6 +973,7 @@ Jual Dompet / Hand Bag Wanita - RSL 009 Murah,dompet-hand-bag-wanita-rsl-009,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -865,8 +996,17 @@ Jual Dompet / Hand Bag Wanita - RSL 009 Murah,dompet-hand-bag-wanita-rsl-009,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Dompet Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet / Hand Bag Wanita - RSL 009 dengan bahan DENIM ini dijamin awet.<br/>Kode : RSL 009<br/>Warna : BIRU<br/>Bahan : DENIM<br/>Ukuran : 21X7X13CM<br/>Berat : 0.4 kg<br>
+         <p>Clutch / Hand Bag / Dompet Wanita - RRW 006 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RRW 006<br/>Warna : BIRU KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.4 kg<br/>Info Lainnya = 28 X 5 X 14<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -880,8 +1020,8 @@ Jual Dompet / Hand Bag Wanita - RSL 009 Murah,dompet-hand-bag-wanita-rsl-009,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan DENIM, Ukuran 21X7X13CM, Warna BIRU",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/492-rsl-009.jpg,Dompet / Hand Bag Wanita - RSL 009,Rp 74.900,RSL 009,Baru
-Jual Dompet / Hand Bag Wanita - RRW 001 Murah,dompet-hand-bag-wanita-rrw-001,"
+     </div><!--/category-tab-->",2017-10-17,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna BIRU KOMBINASI",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/412-rrw-006.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrw-006-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrw-006-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrw-006-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrw-006-d.jpg,/,Clutch / Hand Bag / Dompet Wanita - RRW 006,Rp 73.400,Rp 85.900,Rp 12.500,RRW 006,Baru
+Jual Clutch / Hand Bag / Dompet Wanita - RRW 008 Murah,clutch-hand-bag-dompet-wanita-rrw-008,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -906,6 +1046,7 @@ Jual Dompet / Hand Bag Wanita - RRW 001 Murah,dompet-hand-bag-wanita-rrw-001,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -928,8 +1069,17 @@ Jual Dompet / Hand Bag Wanita - RRW 001 Murah,dompet-hand-bag-wanita-rrw-001,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Dompet Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet / Hand Bag Wanita - RRW 001 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RRW 001<br/>Warna : PINK<br/>Bahan : SINTETIS<br/>Ukuran : 25X7X13CM<br/>Berat : 0.4 kg<br>
+         <p>Clutch / Hand Bag / Dompet Wanita - RRW 008 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RRW 008<br/>Warna : COKLAT KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 0.4 kg<br/>Info Lainnya = 28 X 5 X 14<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -943,256 +1093,4 @@ Jual Dompet / Hand Bag Wanita - RRW 001 Murah,dompet-hand-bag-wanita-rrw-001,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran 25X7X13CM, Warna PINK",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/493-rrw-001.jpg,Dompet / Hand Bag Wanita - RRW 001,Rp 67.400,RRW 001,Baru
-Jual Dompet / Hand Bag Wanita - RFG 011 Murah,dompet-hand-bag-wanita-rfg-011,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Tampil trendy dengan Dompet Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet / Hand Bag Wanita - RFG 011 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RFG 011<br/>Warna : CREAM KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 25X7X17CM<br/>Berat : 0.4 kg<br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-25,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran 25X7X17CM, Warna CREAM KOMBINASI",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/494-rfg-011.jpg,Dompet / Hand Bag Wanita - RFG 011,Rp 81.400,RFG 011,Baru
-Jual Dompet / Hand Bag Wanita - RRW 005 Murah,dompet-hand-bag-wanita-rrw-005,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Tampil trendy dengan Dompet Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet / Hand Bag Wanita - RRW 005 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RRW 005<br/>Warna : BIRU KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 25X7X13CM<br/>Berat : 0.4 kg<br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-25,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran 25X7X13CM, Warna BIRU KOMBINASI",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/495-rrw-005.jpg,Dompet / Hand Bag Wanita - RRW 005,Rp 67.400,RRW 005,Baru
-Jual Dompet / Hand Bag Wanita - RRW 002 Murah,dompet-hand-bag-wanita-rrw-002,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Tampil trendy dengan Dompet Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet / Hand Bag Wanita - RRW 002 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RRW 002<br/>Warna : COKLAT<br/>Bahan : SINTETIS<br/>Ukuran : 26X5X12CM<br/>Berat : 0.4 kg<br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-25,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran 26X5X12CM, Warna COKLAT",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/496-rrw-002.jpg,Dompet / Hand Bag Wanita - RRW 002,Rp 67.400,RRW 002,Baru
-Jual Dompet / Hand Bag Wanita - RSQ 030 Murah,dompet-hand-bag-wanita-rsq-030,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Tampil trendy dengan Dompet Wanita merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet / Hand Bag Wanita - RSQ 030 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RSQ 030<br/>Warna : COKLAT MUDA<br/>Bahan : SINTETIS<br/>Ukuran : 18X2X13CM<br/>Berat : 0.4 kg<br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-25,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran 18X2X13CM, Warna COKLAT MUDA",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/497-rsq-030.jpg,Dompet / Hand Bag Wanita - RSQ 030,Rp 66.900,RSQ 030,Baru
+     </div><!--/category-tab-->",2017-10-17,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna COKLAT KOMBINASI",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/413-rrw-008.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrw-008-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrw-008-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrw-008-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rrw-008-d.jpg,/,Clutch / Hand Bag / Dompet Wanita - RRW 008,Rp 73.400,Rp 85.900,Rp 12.500,RRW 008,Baru
