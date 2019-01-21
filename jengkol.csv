@@ -1,5 +1,5 @@
-title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargajual,profit,sku,kondisi
-Jual Dompet / Clutch Casual Wanita - RA 018 Murah,ra-018,"
+title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargadropship,minimalprice,sku,kondisi
+Jual Tas Dompet Casual Wanita - RA 033 Murah,ra-033,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -24,7 +24,7 @@ Jual Dompet / Clutch Casual Wanita - RA 018 Murah,ra-018,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -47,17 +47,8 @@ Jual Dompet / Clutch Casual Wanita - RA 018 Murah,ra-018,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dompet / Clutch Casual Wanita - RA 018 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RA 018<br/>Warna : MERAH<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 20 X 11 X 3<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Tas Dompet Casual Wanita - RA 033 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RA 033<br/>Warna : COKLAT<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 18 X 13 X 5<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                      
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -69,8 +60,8 @@ Jual Dompet / Clutch Casual Wanita - RA 018 Murah,ra-018,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna MERAH",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ra-018.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ra-018-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ra-018-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ra-018-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/ra-018-d.jpg,-/-,Dompet / Clutch Casual Wanita - RA 018,Rp 76.900,Rp 88.900,Rp 12.000,RA 018,Baru
-Jual Dompet / Clutch Casual Wanita - TB 008 Murah,tb-008,"
+     </div><!--/category-tab-->",2019-01-16,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Warna COKLAT, Size AS",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/ra-033.jpg,-/-,-/-,-/-,-/-,-/-,Tas Dompet Casual Wanita - RA 033,Rp 111.900,Rp 91.900,Rp 100.900,RA 033,Baru
+Jual Tas Dompet Casual Wanita - RW 002 Murah,rw-002,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -95,7 +86,7 @@ Jual Dompet / Clutch Casual Wanita - TB 008 Murah,tb-008,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -118,17 +109,8 @@ Jual Dompet / Clutch Casual Wanita - TB 008 Murah,tb-008,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dompet / Clutch Casual Wanita - TB 008 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : TB 008<br/>Warna : CREAM<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 19 X 10 X 3, BAHAN : PRADA<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Tas Dompet Casual Wanita - RW 002 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RW 002<br/>Warna : ABU ABU<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 25 X 15 X 5<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                      
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -140,8 +122,8 @@ Jual Dompet / Clutch Casual Wanita - TB 008 Murah,tb-008,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna CREAM",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/tb-008.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/tb-008-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/tb-008-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/tb-008-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/tb-008-d.jpg,-/-,Dompet / Clutch Casual Wanita - TB 008,Rp 58.900,Rp 67.900,Rp 9.000,TB 008,Baru
-Jual Dompet / Clutch Casual Wanita - TB 004 Murah,tb-004,"
+     </div><!--/category-tab-->",2019-01-16,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Warna ABU ABU, Size AS",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/rw-002.jpg,-/-,-/-,-/-,-/-,-/-,Tas Dompet Casual Wanita - RW 002,Rp 104.900,Rp 84.900,Rp 93.900,RW 002,Baru
+Jual Dompet Casual Wanita - RW 004 Murah,rw-004,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -166,7 +148,7 @@ Jual Dompet / Clutch Casual Wanita - TB 004 Murah,tb-004,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -189,17 +171,8 @@ Jual Dompet / Clutch Casual Wanita - TB 004 Murah,tb-004,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dompet / Clutch Casual Wanita - TB 004 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : TB 004<br/>Warna : COKLAT<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 23 X 13 X 3, BAHAN : PRADA<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dompet Casual Wanita - RW 004 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RW 004<br/>Warna : CREAM KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 25 X 14 X 5<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                      
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -211,8 +184,8 @@ Jual Dompet / Clutch Casual Wanita - TB 004 Murah,tb-004,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/tb-004.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/tb-004-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/tb-004-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/tb-004-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/tb-004-d.jpg,-/-,Dompet / Clutch Casual Wanita - TB 004,Rp 76.900,Rp 88.900,Rp 12.000,TB 004,Baru
-Jual Dompet / Clutch Casual Wanita - RW 004 Murah,rw-004,"
+     </div><!--/category-tab-->",2019-01-16,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Warna CREAM KOMBINASI, Size AS",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/rw-004.jpg,-/-,-/-,-/-,-/-,-/-,Dompet Casual Wanita - RW 004,Rp 104.900,Rp 84.900,Rp 93.900,RW 004,Baru
+Jual Dompet Casual Wanita - RW 007 Murah,rw-007,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -237,7 +210,7 @@ Jual Dompet / Clutch Casual Wanita - RW 004 Murah,rw-004,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -260,17 +233,8 @@ Jual Dompet / Clutch Casual Wanita - RW 004 Murah,rw-004,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dompet / Clutch Casual Wanita - RW 004 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RW 004<br/>Warna : CREAM KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 25 X 14 X 5<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dompet Casual Wanita - RW 007 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RW 007<br/>Warna : UNGU<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 25 X 14 X 5, BAHAN : FERARY<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                      
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -282,8 +246,8 @@ Jual Dompet / Clutch Casual Wanita - RW 004 Murah,rw-004,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna CREAM KOMBINASI",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/rw-004.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/rw-004-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/rw-004-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/rw-004-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/rw-004-d.jpg,-/-,Dompet / Clutch Casual Wanita - RW 004,Rp 79.900,Rp 91.900,Rp 12.000,RW 004,Baru
-Jual Dompet / Clutch Casual Wanita - RW 002 Murah,rw-002,"
+     </div><!--/category-tab-->",2019-01-16,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Warna UNGU, Size AS",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/rw-007.jpg,-/-,-/-,-/-,-/-,-/-,Dompet Casual Wanita - RW 007,Rp 104.900,Rp 84.900,Rp 93.900,RW 007,Baru
+Jual Dompet Casual Wanita - RW 015 Murah,rw-015,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -308,7 +272,7 @@ Jual Dompet / Clutch Casual Wanita - RW 002 Murah,rw-002,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -331,17 +295,8 @@ Jual Dompet / Clutch Casual Wanita - RW 002 Murah,rw-002,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dompet / Clutch Casual Wanita - RW 002 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RW 002<br/>Warna : ABU ABU<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 25 X 15 X 5<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dompet Casual Wanita - RW 015 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RW 015<br/>Warna : ABU KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 24 X 18 X 8<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                      
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -353,8 +308,8 @@ Jual Dompet / Clutch Casual Wanita - RW 002 Murah,rw-002,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/rw-002.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/rw-002-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/rw-002-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/rw-002-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/rw-002-d.jpg,-/-,Dompet / Clutch Casual Wanita - RW 002,Rp 79.900,Rp 91.900,Rp 12.000,RW 002,Baru
-Jual Dompet / Clutch Casual Wanita - RW 007 Murah,rw-007,"
+     </div><!--/category-tab-->",2019-01-16,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Warna ABU KOMBINASI, Size AS",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/rw-015.jpg,-/-,-/-,-/-,-/-,-/-,Dompet Casual Wanita - RW 015,Rp 104.900,Rp 84.900,Rp 93.900,RW 015,Baru
+Jual Dompet Casual Wanita - RW 009 Murah,rw-009,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -379,7 +334,7 @@ Jual Dompet / Clutch Casual Wanita - RW 007 Murah,rw-007,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -402,17 +357,8 @@ Jual Dompet / Clutch Casual Wanita - RW 007 Murah,rw-007,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dompet / Clutch Casual Wanita - RW 007 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RW 007<br/>Warna : UNGU<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 25 X 14 X 5, BAHAN : FERARY<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dompet Casual Wanita - RW 009 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RW 009<br/>Warna : MERAH KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 24 X 18 X 8, BAHAN : CHEVROLET<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                      
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -424,8 +370,8 @@ Jual Dompet / Clutch Casual Wanita - RW 007 Murah,rw-007,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna UNGU",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/rw-007.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/rw-007-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/rw-007-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/rw-007-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/rw-007-d.jpg,-/-,Dompet / Clutch Casual Wanita - RW 007,Rp 79.900,Rp 91.900,Rp 12.000,RW 007,Baru
-Jual Dompet / Clutch Casual Wanita - TB 003 Murah,tb-003,"
+     </div><!--/category-tab-->",2019-01-16,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Warna MERAH KOMBINASI, Size AS",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/rw-009.jpg,-/-,-/-,-/-,-/-,-/-,Dompet Casual Wanita - RW 009,Rp 104.900,Rp 84.900,Rp 93.900,RW 009,Baru
+Jual Dompet Casual Wanita - SK 041 Murah,sk-041,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -450,7 +396,7 @@ Jual Dompet / Clutch Casual Wanita - TB 003 Murah,tb-003,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -473,17 +419,8 @@ Jual Dompet / Clutch Casual Wanita - TB 003 Murah,tb-003,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dompet / Clutch Casual Wanita - TB 003 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : TB 003<br/>Warna : MERAH<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 23 X 12 X 4<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dompet Casual Wanita - SK 041 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : SK 041<br/>Warna : COKLAT<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 400 gram<br/>Info Lainnya = 11 X 9 X 2<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                      
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -495,8 +432,8 @@ Jual Dompet / Clutch Casual Wanita - TB 003 Murah,tb-003,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna MERAH",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/tb-003.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/tb-003-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/tb-003-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/tb-003-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/tb-003-d.jpg,-/-,Dompet / Clutch Casual Wanita - TB 003,Rp 73.900,Rp 84.900,Rp 11.000,TB 003,Baru
-Jual Dompet / Clutch Casual Wanita - TB 005 Murah,tb-005,"
+     </div><!--/category-tab-->",2019-01-16,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Warna COKLAT, Size AS",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/sk-041.jpg,-/-,-/-,-/-,-/-,-/-,Dompet Casual Wanita - SK 041,Rp 104.900,Rp 84.900,Rp 93.900,SK 041,Baru
+Jual Dompet Casual Wanita - TB 017 Murah,tb-017,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -521,7 +458,7 @@ Jual Dompet / Clutch Casual Wanita - TB 005 Murah,tb-005,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -544,17 +481,8 @@ Jual Dompet / Clutch Casual Wanita - TB 005 Murah,tb-005,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dompet / Clutch Casual Wanita - TB 005 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : TB 005<br/>Warna : ABU ABU<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 23 X 12 X 4<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dompet Casual Wanita - TB 017 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : TB 017<br/>Warna : MOKA<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 14 X 11 X 3<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                      
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -566,8 +494,8 @@ Jual Dompet / Clutch Casual Wanita - TB 005 Murah,tb-005,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/tb-005.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/tb-005-a.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/tb-005-b.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/tb-005-c.jpg,https://images.lipatan.com/katalog-catenzo-2018/foto-berbagai-sudut/tb-005-d.jpg,-/-,Dompet / Clutch Casual Wanita - TB 005,Rp 76.900,Rp 88.900,Rp 12.000,TB 005,Baru
-Jual Dompet / Clutch Casual Wanita - RTB 012 Murah,rtb-012,"
+     </div><!--/category-tab-->",2019-01-16,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Warna MOKA, Size AS",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/tb-017.jpg,-/-,-/-,-/-,-/-,-/-,Dompet Casual Wanita - TB 017,Rp 64.900,Rp 52.900,Rp 57.900,TB 017,Baru
+Jual Dompet Casual Wanita - TB 015 Murah,tb-015,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -592,7 +520,7 @@ Jual Dompet / Clutch Casual Wanita - RTB 012 Murah,rtb-012,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -615,17 +543,8 @@ Jual Dompet / Clutch Casual Wanita - RTB 012 Murah,rtb-012,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dompet / Clutch Casual Wanita - RTB 012 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RTB 012<br/>Warna : CREAM<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 23 X 3 X 13<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dompet Casual Wanita - TB 015 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : TB 015<br/>Warna : PINK<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 14 X 11 X 3<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                      
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -637,8 +556,8 @@ Jual Dompet / Clutch Casual Wanita - RTB 012 Murah,rtb-012,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna CREAM",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rtb-012.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rtb-012-a.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rtb-012-b.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rtb-012-c.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rtb-012-d.jpg,-/-,Dompet / Clutch Casual Wanita - RTB 012,Rp 72.900,Rp 83.900,Rp 11.000,RTB 012,Baru
-Jual Dompet / Clutch Casual Wanita - RNA 083 Murah,rna-083,"
+     </div><!--/category-tab-->",2019-01-16,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Warna PINK, Size AS",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/tb-015.jpg,-/-,-/-,-/-,-/-,-/-,Dompet Casual Wanita - TB 015,Rp 64.900,Rp 52.900,Rp 57.900,TB 015,Baru
+Jual Dompet Casual Wanita - SK 047 Murah,sk-047,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -663,7 +582,7 @@ Jual Dompet / Clutch Casual Wanita - RNA 083 Murah,rna-083,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -686,17 +605,8 @@ Jual Dompet / Clutch Casual Wanita - RNA 083 Murah,rna-083,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dompet / Clutch Casual Wanita - RNA 083 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RNA 083<br/>Warna : COKLAT<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 22 X 5 X 12<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dompet Casual Wanita - SK 047 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : SK 047<br/>Warna : COKLAT<br/>Bahan : CANVAS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 20 X 10 X 3<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                      
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -708,8 +618,8 @@ Jual Dompet / Clutch Casual Wanita - RNA 083 Murah,rna-083,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna COKLAT",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rna-083.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rna-083-a.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rna-083-b.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rna-083-c.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rna-083-d.jpg,-/-,Dompet / Clutch Casual Wanita - RNA 083,Rp 76.900,Rp 88.900,Rp 12.000,RNA 083,Baru
-Jual Dompet / Clutch Casual Wanita - RTB 007 Murah,rtb-007,"
+     </div><!--/category-tab-->",2019-01-16,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan CANVAS, Warna COKLAT, Size AS",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/sk-047.jpg,-/-,-/-,-/-,-/-,-/-,Dompet Casual Wanita - SK 047,Rp 89.900,Rp 72.900,Rp 80.900,SK 047,Baru
+Jual Dompet Casual Wanita - TB 008 Murah,tb-008,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -734,7 +644,7 @@ Jual Dompet / Clutch Casual Wanita - RTB 007 Murah,rtb-007,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -757,17 +667,8 @@ Jual Dompet / Clutch Casual Wanita - RTB 007 Murah,rtb-007,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dompet / Clutch Casual Wanita - RTB 007 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RTB 007<br/>Warna : TAN<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 23 X 3 X 13<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dompet Casual Wanita - TB 008 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : TB 008<br/>Warna : CREAM<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 400 gram<br/>Info Lainnya = 19 X 10 X 3, BAHAN : PRADA<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                      
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -779,8 +680,8 @@ Jual Dompet / Clutch Casual Wanita - RTB 007 Murah,rtb-007,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna TAN",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rtb-007.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rtb-007-a.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rtb-007-b.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rtb-007-c.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rtb-007-d.jpg,-/-,Dompet / Clutch Casual Wanita - RTB 007,Rp 72.900,Rp 83.900,Rp 11.000,RTB 007,Baru
-Jual Dompet / Clutch Casual Wanita - RNA 103 Murah,rna-103,"
+     </div><!--/category-tab-->",2019-01-16,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Warna CREAM, Size AS",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/tb-008.jpg,-/-,-/-,-/-,-/-,-/-,Dompet Casual Wanita - TB 008,Rp 77.900,Rp 62.900,Rp 69.900,TB 008,Baru
+Jual Dompet Casual Wanita - RA 018 Murah,ra-018,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -805,7 +706,7 @@ Jual Dompet / Clutch Casual Wanita - RNA 103 Murah,rna-103,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -828,17 +729,8 @@ Jual Dompet / Clutch Casual Wanita - RNA 103 Murah,rna-103,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dompet / Clutch Casual Wanita - RNA 103 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RNA 103<br/>Warna : HIJAU<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 600 gram<br/>Info Lainnya = 20 X 4 X 16<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dompet Casual Wanita - RA 018 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RA 018<br/>Warna : MERAH<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 20 X 11 X 3<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                      
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -850,8 +742,8 @@ Jual Dompet / Clutch Casual Wanita - RNA 103 Murah,rna-103,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna HIJAU",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rna-103.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rna-103-a.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rna-103-b.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rna-103-c.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rna-103-d.jpg,-/-,Dompet / Clutch Casual Wanita - RNA 103,Rp 83.900,Rp 96.900,Rp 13.000,RNA 103,Baru
-Jual Dompet / Clutch Casual Wanita - RTB 008 Murah,rtb-008,"
+     </div><!--/category-tab-->",2019-01-16,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Warna MERAH, Size AS",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/ra-018.jpg,-/-,-/-,-/-,-/-,-/-,Dompet Casual Wanita - RA 018,Rp 102.900,Rp 83.900,Rp 91.900,RA 018,Baru
+Jual Dompet Casual Wanita - TB 014 Murah,tb-014,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -876,7 +768,7 @@ Jual Dompet / Clutch Casual Wanita - RTB 008 Murah,rtb-008,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -899,17 +791,8 @@ Jual Dompet / Clutch Casual Wanita - RTB 008 Murah,rtb-008,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dompet / Clutch Casual Wanita - RTB 008 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RTB 008<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 23 X 3 X 13<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dompet Casual Wanita - TB 014 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : TB 014<br/>Warna : MERAH<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 14 X 11 X 3<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                      
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -921,8 +804,8 @@ Jual Dompet / Clutch Casual Wanita - RTB 008 Murah,rtb-008,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rtb-008.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rtb-008-a.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rtb-008-b.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rtb-008-c.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rtb-008-d.jpg,-/-,Dompet / Clutch Casual Wanita - RTB 008,Rp 72.900,Rp 83.900,Rp 11.000,RTB 008,Baru
-Jual Dompet / Clutch Casual Wanita - RRW 001 Murah,rrw-001,"
+     </div><!--/category-tab-->",2019-01-16,html,dompet-wanita,catenzo,dompet-wanita,catenzo,"Dompet Wanita Bahan SINTETIS, Warna MERAH, Size AS",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/tb-014.jpg,-/-,-/-,-/-,-/-,-/-,Dompet Casual Wanita - TB 014,Rp 64.900,Rp 52.900,Rp 57.900,TB 014,Baru
+Jual Tas Dompet Casual Wanita - RSL 018 Murah,rsl-018,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -947,7 +830,7 @@ Jual Dompet / Clutch Casual Wanita - RRW 001 Murah,rrw-001,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -970,17 +853,8 @@ Jual Dompet / Clutch Casual Wanita - RRW 001 Murah,rrw-001,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dompet / Clutch Casual Wanita - RRW 001 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RRW 001<br/>Warna : PINK<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 25 X 7 X 13<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Tas Dompet Casual Wanita - RSL 018 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RSL 018<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 600 gram<br/>Info Lainnya = 22 X 5 X 13<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                      
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -992,8 +866,8 @@ Jual Dompet / Clutch Casual Wanita - RRW 001 Murah,rrw-001,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna PINK",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rrw-001.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrw-001-a.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrw-001-b.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrw-001-c.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrw-001-d.jpg,-/-,Dompet / Clutch Casual Wanita - RRW 001,Rp 69.900,Rp 80.900,Rp 11.000,RRW 001,Baru
-Jual Dompet / Clutch Casual Wanita - RNA 055 Murah,rna-055,"
+     </div><!--/category-tab-->",2019-01-17,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Warna HITAM, Size AS",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rsl-018.jpg,-/-,-/-,-/-,-/-,-/-,Tas Dompet Casual Wanita - RSL 018,Rp 124.900,Rp 100.900,Rp 111.900,RSL 018,Baru
+Jual Dompet Casual Wanita - RNA 110 Murah,rna-110,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1018,7 +892,7 @@ Jual Dompet / Clutch Casual Wanita - RNA 055 Murah,rna-055,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1041,17 +915,8 @@ Jual Dompet / Clutch Casual Wanita - RNA 055 Murah,rna-055,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dompet / Clutch Casual Wanita - RNA 055 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RNA 055<br/>Warna : ABU ABU<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 23 X 4 X 13<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dompet Casual Wanita - RNA 110 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RNA 110<br/>Warna : CREAM KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 1100 gram<br/>Info Lainnya = 23 X 2 X 12<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                      
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1063,8 +928,8 @@ Jual Dompet / Clutch Casual Wanita - RNA 055 Murah,rna-055,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna ABU ABU",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rna-055.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rna-055-a.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rna-055-b.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rna-055-c.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rna-055-d.jpg,-/-,Dompet / Clutch Casual Wanita - RNA 055,Rp 78.900,Rp 90.900,Rp 12.000,RNA 055,Baru
-Jual Dompet / Clutch Casual Wanita - RRW 014 Murah,rrw-014,"
+     </div><!--/category-tab-->",2019-01-17,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Warna CREAM KOMBINASI, Size AS",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rna-110.jpg,-/-,-/-,-/-,-/-,-/-,Dompet Casual Wanita - RNA 110,Rp 108.900,Rp 88.900,Rp 97.900,RNA 110,Baru
+Jual Dompet Casual Wanita - RNA 055 Murah,rna-055,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1089,7 +954,7 @@ Jual Dompet / Clutch Casual Wanita - RRW 014 Murah,rrw-014,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1112,17 +977,8 @@ Jual Dompet / Clutch Casual Wanita - RRW 014 Murah,rrw-014,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dompet / Clutch Casual Wanita - RRW 014 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RRW 014<br/>Warna : MERAH<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 25 X 5 X 15<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dompet Casual Wanita - RNA 055 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RNA 055<br/>Warna : ABU ABU<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 23 X 4 X 13<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                      
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1134,8 +990,8 @@ Jual Dompet / Clutch Casual Wanita - RRW 014 Murah,rrw-014,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna MERAH",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rrw-014.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrw-014-a.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrw-014-b.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrw-014-c.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrw-014-d.jpg,-/-,Dompet / Clutch Casual Wanita - RRW 014,Rp 69.900,Rp 80.900,Rp 11.000,RRW 014,Baru
-Jual Dompet / Clutch Casual Wanita - RRW 011 Murah,rrw-011,"
+     </div><!--/category-tab-->",2019-01-17,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Warna ABU ABU, Size AS",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rna-055.jpg,-/-,-/-,-/-,-/-,-/-,Dompet Casual Wanita - RNA 055,Rp 104.900,Rp 84.900,Rp 93.900,RNA 055,Baru
+Jual Dompet Casual Wanita - RTB 007 Murah,rtb-007,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1160,7 +1016,7 @@ Jual Dompet / Clutch Casual Wanita - RRW 011 Murah,rrw-011,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1183,17 +1039,8 @@ Jual Dompet / Clutch Casual Wanita - RRW 011 Murah,rrw-011,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dompet / Clutch Casual Wanita - RRW 011 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RRW 011<br/>Warna : PINK KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 28 X 5 X 14<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dompet Casual Wanita - RTB 007 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RTB 007<br/>Warna : TAN<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 23 X 3 X 13<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                      
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1205,8 +1052,8 @@ Jual Dompet / Clutch Casual Wanita - RRW 011 Murah,rrw-011,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna PINK KOMBINASI",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rrw-011.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrw-011-a.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrw-011-b.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrw-011-c.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrw-011-d.jpg,-/-,Dompet / Clutch Casual Wanita - RRW 011,Rp 75.900,Rp 87.900,Rp 12.000,RRW 011,Baru
-Jual Dompet / Clutch Casual Wanita - RRW 006 Murah,rrw-006,"
+     </div><!--/category-tab-->",2019-01-17,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Warna TAN, Size AS",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rtb-007.jpg,-/-,-/-,-/-,-/-,-/-,Dompet Casual Wanita - RTB 007,Rp 94.900,Rp 76.900,Rp 84.900,RTB 007,Baru
+Jual Dompet Casual Wanita - RTB 008 Murah,rtb-008,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1231,7 +1078,7 @@ Jual Dompet / Clutch Casual Wanita - RRW 006 Murah,rrw-006,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1254,17 +1101,8 @@ Jual Dompet / Clutch Casual Wanita - RRW 006 Murah,rrw-006,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dompet / Clutch Casual Wanita - RRW 006 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RRW 006<br/>Warna : BIRU KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 28 X 5 X 14<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dompet Casual Wanita - RTB 008 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RTB 008<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 23 X 3 X 13<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                      
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1276,8 +1114,8 @@ Jual Dompet / Clutch Casual Wanita - RRW 006 Murah,rrw-006,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna BIRU KOMBINASI",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rrw-006.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrw-006-a.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrw-006-b.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrw-006-c.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrw-006-d.jpg,-/-,Dompet / Clutch Casual Wanita - RRW 006,Rp 75.900,Rp 87.900,Rp 12.000,RRW 006,Baru
-Jual Dompet / Clutch Casual Wanita - RRW 008 Murah,rrw-008,"
+     </div><!--/category-tab-->",2019-01-17,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Warna HITAM, Size AS",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rtb-008.jpg,-/-,-/-,-/-,-/-,-/-,Dompet Casual Wanita - RTB 008,Rp 94.900,Rp 76.900,Rp 84.900,RTB 008,Baru
+Jual Dompet Casual Wanita - RTB 010 Murah,rtb-010,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1302,7 +1140,7 @@ Jual Dompet / Clutch Casual Wanita - RRW 008 Murah,rrw-008,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1325,17 +1163,8 @@ Jual Dompet / Clutch Casual Wanita - RRW 008 Murah,rrw-008,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Dompet / Clutch Casual Wanita - RRW 008 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Dompet Wanita ini terbuat dari bahan SINTETIS.<br/>Kode : RRW 008<br/>Warna : COKLAT KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 28 X 5 X 14<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Dompet Casual Wanita - RTB 010 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RTB 010<br/>Warna : PINK<br/>Bahan : SINTETIS<br/>Ukuran : AS<br/>Berat : 500 gram<br/>Info Lainnya = 15 X 3 X 10<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
-
-         <p><b>Gambar lain :</b></p>
-                    <div class=""add-image"">
-                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
-                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                      
-                    </div>
-                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1347,4 +1176,4 @@ Jual Dompet / Clutch Casual Wanita - RRW 008 Murah,rrw-008,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Ukuran AS, Warna COKLAT KOMBINASI",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rrw-008.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrw-008-a.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrw-008-b.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrw-008-c.jpg,https://images.lipatan.com/katalog-raindoz-2018/foto-berbagai-sudut/rrw-008-d.jpg,-/-,Dompet / Clutch Casual Wanita - RRW 008,Rp 75.900,Rp 87.900,Rp 12.000,RRW 008,Baru
+     </div><!--/category-tab-->",2019-01-17,html,dompet-wanita,raindoz,dompet-wanita,raindoz,"Dompet Wanita Bahan SINTETIS, Warna PINK, Size AS",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rtb-010.jpg,-/-,-/-,-/-,-/-,-/-,Dompet Casual Wanita - RTB 010,Rp 94.900,Rp 76.900,Rp 84.900,RTB 010,Baru
